@@ -81,4 +81,4 @@ jobs:
         with:
           context: .
           push: false # Toggle to true once your registry credentials are wired up
-          tags: ghcr.io/${{ github.repository }}/secure-app:latest
+          tags: secure-app:latest
